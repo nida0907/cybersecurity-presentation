@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyber Challenge</title>
+
+<style>
+body{
+background:#0a1020;
+color:white;
+font-family:Segoe UI,sans-serif;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+margin:0;
+}
+
+.container{
+width:90%;
+max-width:900px;
+background:rgba(255,255,255,.05);
+padding:30px;
+border-radius:20px;
+}
+
+h1{
+color:#4db8ff;
+}
+
+button{
+width:100%;
+padding:15px;
+margin-top:10px;
+border:none;
+border-radius:12px;
+cursor:pointer;
+font-size:16px;
+}
+
+.option{
+background:#1a2340;
+color:white;
+}
+
+.option:hover{
+background:#2a3765;
+}
+
+#nextBtn{
+background:#4db8ff;
+color:white;
+display:none;
+}
+
+#result{
+display:none;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div id="startScreen">
+
+<h1>Cyber Challenge</h1>
+
+<p>
+Can You Protect Nida's Data?
+</p>
+
+<p>
+Nida'nın verilerini koruyabilir misin?
+</p>
+
+<input
+type="text"
+id="playerName"
+placeholder="Enter your name"
+style="width:100%;padding:12px;border-radius:10px;">
+
+<br><br>
+
+<button onclick="startGame()">
+Start Challenge
+</button>
+
+</div>
+
+<div id="quizScreen" style="display:none;">
+
+<h2 id="question"></h2>
+
+<p id="questionTR"></p>
+
+<div id="answers"></div>
+
+<p id="feedback"
+style="
+margin-top:15px;
+font-weight:bold;
+font-size:20px;
+"></p>
+
+<button id="nextBtn" onclick="nextQuestion()">
+Next Question
+</button>
+
+</div>
+
+<div id="result">
+
+<h1>Result</h1>
+
+<h2 id="scoreText"></h2>
+
+<h3 id="rankText"></h3>
+
+</div>
+
+</div>
+
+<script src="game.js"></script>
+
+</body>
+</html>

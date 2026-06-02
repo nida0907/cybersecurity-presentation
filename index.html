@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cybersecurity Presentation</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="progress-bar">
+    <div id="progress"></div>
+</div>
+
+<div class="controls">
+    <button onclick="prevSlide()">⬅</button>
+    <button onclick="nextSlide()">➡</button>
+</div>
+
+<!-- SLIDE 1 -->
+
+<section class="slide active">
+
+<div class="hero">
+
+<h1>Cybersecurity</h1>
+
+<h2>Protecting Our Digital World</h2>
+
+<p>
+Presented by Nidanur Gözütok
+</p>
+
+<p>
+An interactive presentation about cyber threats,
+common attacks and how we can protect ourselves.
+</p>
+
+<button onclick="nextSlide()">
+Start Presentation
+</button>
+
+</div>
+
+</section>
+
+<!-- SLIDE 2 -->
+
+<section class="slide">
+
+<h1>What is Cybersecurity?</h1>
+
+<p>
+Cybersecurity is the practice of protecting systems,
+networks, applications and sensitive information
+from cyber threats.
+</p>
+
+<p>
+As our lives become increasingly connected to technology,
+cybersecurity plays a critical role in protecting
+personal data, business operations and online services.
+</p>
+
+<div class="card-container">
+
+<div class="card">
+<h3>🛡 Personal Security</h3>
+Protects personal information from theft.
+</div>
+
+<div class="card">
+<h3>💳 Financial Protection</h3>
+Prevents fraud and financial loss.
+</div>
+
+<div class="card">
+<h3>🏢 Business Security</h3>
+Protects organizations and digital assets.
+</div>
+
+<div class="card">
+<h3>🌐 Digital Trust</h3>
+Supports safe online communication.
+</div>
+
+</div>
+
+</section>
+
+<!-- SLIDE 3 -->
+
+<section class="slide">
+
+<h1>What is a Cyberattack?</h1>
+
+<p>
+A cyberattack is an attempt to gain unauthorized access,
+steal information or disrupt digital systems.
+</p>
+
+<div class="card-container">
+
+<div class="card">
+<h3>🎯 Steal Data</h3>
+Passwords, personal data and company records.
+</div>
+
+<div class="card">
+<h3>🔓 Gain Access</h3>
+Entering systems without permission.
+</div>
+
+<div class="card">
+<h3>💥 Disrupt Services</h3>
+Stopping systems from working normally.
+</div>
+
+<div class="card">
+<h3>💰 Financial Gain</h3>
+Making money through cybercrime.
+</div>
+
+</div>
+
+</section>
+
+<!-- SLIDE 4 -->
+
+<section class="slide">
+
+<h1>Common Cyber Attacks</h1>
+
+<p>
+Some of the most common cyber threats today.
+</p>
+
+<div class="card-container">
+
+<div class="card attack-card">
+📧 Social Engineering
+</div>
+
+<div class="card attack-card">
+🦠 Malware
+</div>
+
+<div class="card attack-card">
+🔒 Ransomware
+</div>
+
+<div class="card attack-card">
+🔑 Password Attacks
+</div>
+
+</div>
+
+</section>
+
+<section class="slide">
+
+<h1>🧠 Social Engineering</h1>
+
+<p>
+Social engineering is a cyberattack technique that manipulates people into revealing confidential information or performing unsafe actions.
+</p>
+
+<p>
+Instead of attacking computers directly, attackers exploit human emotions such as trust, fear, urgency, and curiosity.
+</p>
+
+<div class="card-container">
+
+<div class="card">
+<h3>🤝 Trust</h3>
+People naturally trust familiar organizations and brands.
+</div>
+
+<div class="card">
+<h3>⚠ Fear</h3>
+Attackers create panic to force quick decisions.
+</div>
+
+<div class="card">
+<h3>⏰ Urgency</h3>
+Victims are pressured to act immediately.
+</div>
+
+<div class="card">
+<h3>🎁 Curiosity</h3>
+Interesting files or rewards attract attention.
+</div>
+
+</div>
+
+<p style="margin-top:40px;font-size:1.5rem;">
+Let's explore the most common types.
+</p>
+
+</section>
+<section class="slide">
+
+<h1>📧 Phishing</h1>
+
+<p>
+Phishing is a social engineering attack that uses fake emails, websites, or messages to trick users into revealing sensitive information.
+</p>
+
+<div class="email-box">
+
+<h3>Example Scenario</h3>
+
+<p>
+From: support@university-security.com
+</p>
+
+<p>
+To: nida.gozutok@student.edu.tr
+</p>
+
+<p>
+Subject: Urgent Account Verification Required
+</p>
+
+<hr>
+
+<p>
+Dear Nida,
+</p>
+
+<p>
+We detected unusual activity on your university account.
+Please verify your account within 24 hours.
+</p>
+
+</div>
+
+<h3>⚠ Why is this suspicious?</h3>
+
+<ul>
+<li>Creates urgency</li>
+<li>Unknown sender</li>
+<li>Requests sensitive information</li>
+<li>Encourages immediate action</li>
+</ul>
+
+</section>
+<section class="slide">
+
+<h1>📱 Smishing</h1>
+
+<p>
+Smishing is a phishing attack conducted through SMS messages.
+</p>
+
+<div class="email-box">
+
+<h3>Example Scenario</h3>
+
+<p>
+Hello Nida,
+</p>
+
+<p>
+Your package could not be delivered.
+</p>
+
+<p>
+Track it here:
+delivery-check-now.com
+</p>
+
+</div>
+
+<h3>⚠ Why is this suspicious?</h3>
+
+<ul>
+<li>Nida was not expecting a package</li>
+<li>Suspicious website address</li>
+<li>Creates urgency</li>
+<li>Pushes the user to click quickly</li>
+</ul>
+
+</section>
+<section class="slide">
+
+<h1>📞 Vishing</h1>
+
+<p>
+Vishing uses phone calls to obtain confidential information.
+</p>
+
+<div class="email-box">
+
+<h3>Example Scenario</h3>
+
+<p>
+Caller:
+</p>
+
+<p>
+Hello Nida,
+</p>
+
+<p>
+We are calling from your bank.
+</p>
+
+<p>
+Please provide your verification code.
+</p>
+
+</div>
+
+<h3>⚠ Why is this suspicious?</h3>
+
+<ul>
+<li>Banks do not ask for verification codes by phone</li>
+<li>Creates fear and panic</li>
+<li>Pressures the victim</li>
+<li>Requests confidential information</li>
+</ul>
+
+</section>
+<section class="slide">
+
+<h1>🎁 Baiting</h1>
+
+<p>
+Baiting exploits curiosity or temptation by offering something attractive.
+</p>
+
+<div class="email-box">
+
+<h3>Example Scenario</h3>
+
+<p>
+USB Drive Found
+</p>
+
+<p>
+Internship Salaries 2026
+</p>
+
+<p>
+or
+</p>
+
+<p>
+Final Exam Answers
+</p>
+
+</div>
+
+<h3>⚠ What happens?</h3>
+
+<ul>
+<li>User connects the USB device</li>
+<li>Malware is installed</li>
+<li>Files can be stolen</li>
+<li>System may be compromised</li>
+</ul>
+
+</section>
+
+<!-- SLIDE 7 -->
+
+<section class="slide">
+
+<h1>Malware</h1>
+
+<p>
+Malware is malicious software designed to
+damage systems, steal information or gain
+unauthorized access.
+</p>
+
+<div class="demo-box">
+
+<p>
+Friend sends:
+</p>
+
+<p>
+CybersecurityPresentation.pdf.exe
+</p>
+
+<button>
+Open File
+</button>
+
+</div>
+
+</section>
+
+<!-- SLIDE 8 -->
+
+<section class="slide">
+
+<h1>Ransomware</h1>
+
+<p>
+One day before your presentation...
+</p>
+
+<div class="file-box">
+
+<p>📄 Cybersecurity_Presentation.pptx</p>
+<p>📄 Internship_Report.docx</p>
+<p>📄 Notes.pdf</p>
+
+</div>
+
+</section>
+
+<!-- SLIDE 9 -->
+
+<section class="slide">
+
+<h1>Password Attacks</h1>
+
+<p>
+Weak passwords can be guessed or cracked
+very quickly.
+</p>
+
+<div class="card-container">
+
+<div class="card">
+❌ nida123
+</div>
+
+<div class="card">
+❌ password2026
+</div>
+
+<div class="card">
+✅ N!da#Cyber2026
+</div>
+
+</div>
+
+</section>
+
+<!-- SLIDE 10 -->
+
+<section class="slide">
+
+<h1>Cyber Challenge</h1>
+
+<p>
+Scan the QR code and test your cybersecurity skills.
+</p>
+
+<div class="qr-placeholder">
+QR CODE HERE
+</div>
+
+</section>
+
+<!-- SLIDE 11 -->
+
+<section class="slide">
+
+<h1>Connect With Me</h1>
+
+<p>
+LinkedIn Profile
+</p>
+
+<div class="linkedin-box">
+
+LinkedIn QR & Screenshot
+
+</div>
+
+</section>
+
+<!-- SLIDE 12 -->
+
+<section class="slide">
+
+<h1>Thank You</h1>
+
+<h2>Questions?</h2>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
